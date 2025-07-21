@@ -29,10 +29,10 @@ const form =document.querySelector('form');
 function sendEmail() {
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "sonamannda14@gmail.com",
+        Username : "ABC14@gmail.com",
         Password : "5FC80569526F961D385CF4219DFD696BF31D",
-        To : 'sonamannda14@gmail.com',
-        From : "sonamannda14@gmail.com",
+        To : 'ABC14@gmail.com',
+        From : "KNN@gmail.com",
         Subject : "This is the subject",
         Body : "And this is the body"
     }).then(
